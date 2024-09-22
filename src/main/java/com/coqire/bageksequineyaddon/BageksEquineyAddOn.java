@@ -1,5 +1,7 @@
 package com.coqire.bageksequineyaddon;
 
+import com.coqire.bageksequineyaddon.item.ModItems;
+import com.coqire.bageksequineyaddon.registry.BageksTack;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -26,6 +28,8 @@ public class BageksEquineyAddOn
 
         modEventBus.addListener(this::commonSetup);
 
+        ModItems.register(modEventBus);
+        BageksTack.init(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
