@@ -1,5 +1,6 @@
 package com.coqire.bageksequineyaddon;
 
+import com.coqire.bageksequineyaddon.item.BageksAddonCreativeModTab;
 import com.coqire.bageksequineyaddon.item.ModItems;
 import com.coqire.bageksequineyaddon.registry.BageksTack;
 import com.mojang.logging.LogUtils;
@@ -30,6 +31,7 @@ public class BageksEquineyAddOn
 
         ModItems.register(modEventBus);
         BageksTack.init(modEventBus);
+        BageksAddonCreativeModTab.init(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
