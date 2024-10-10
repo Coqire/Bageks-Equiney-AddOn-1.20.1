@@ -29,6 +29,10 @@ public class BageksAddonCreativeModTab {
                     Item item = registeredItem.get();
                     pOutput.accept(item);
 
+                    pOutput.accept(ModItems.BAGUETTE.get());
+                    pOutput.accept(ModItems.BLUE_DONUT_TREAT.get());
+                    pOutput.accept(ModItems.PINK_DONUT_TREAT.get());
+                    pOutput.accept(ModItems.YELLOW_DONUT_TREAT.get());
 
                 })).withSearchBar().build());
     }
