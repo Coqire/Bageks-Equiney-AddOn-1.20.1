@@ -15,22 +15,22 @@ import java.util.List;
 public class BageksTack {
 
     // INDIVIDUAL ITEMS
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_RED;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_ORANGE;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_YELLOW;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_LIME;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_GREEN;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_LIGHT_BLUE;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_CYAN;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_BLUE;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_PURPLE;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_MAGENTA;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_PINK;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_WHITE;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_LIGHT_GRAY;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_GRAY;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_BLACK;
-    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BAGEK_BROWN;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_RED;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_ORANGE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_YELLOW;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_LIME;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_GREEN;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_LIGHT_BLUE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_CYAN;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLUE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_PURPLE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_MAGENTA;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_PINK;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_WHITE;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_LIGHT_GRAY;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_GRAY;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BLACK;
+    public static final RegistryObject<HalterItem> HALTER_FLUFFY_BROWN;
     
     public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_BAGEK_BLACK;
     public static final RegistryObject<EnglishBreastCollar> ENGLISH_BREAST_COLLAR_BAGEK_C1;
@@ -166,67 +166,67 @@ public class BageksTack {
 
         //INDIVIDUAL ITEMS
 
-        HALTER_FLUFFY_BAGEK_RED = REGISTRY.register("halter_fluffy_red", () ->
-                new HalterItem("halter_fluffy_red",
+        HALTER_FLUFFY_RED = REGISTRY.register("halter_fluffy_red", () ->
+                new HalterItem("halter_fluffy_bagek_red",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_ORANGE = REGISTRY.register("halter_fluffy_orange", () ->
-                new HalterItem("halter_fluffy_orange",
+        HALTER_FLUFFY_ORANGE = REGISTRY.register("halter_fluffy_orange", () ->
+                new HalterItem("halter_fluffy_bagek_orange",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_YELLOW = REGISTRY.register("halter_fluffy_yellow", () ->
-                new HalterItem("halter_fluffy_yellow",
+        HALTER_FLUFFY_YELLOW = REGISTRY.register("halter_fluffy_yellow", () ->
+                new HalterItem("halter_fluffy_bagek_yellow",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_LIME = REGISTRY.register("halter_fluffy_lime", () ->
-                new HalterItem("halter_fluffy_lime",
+        HALTER_FLUFFY_LIME = REGISTRY.register("halter_fluffy_lime", () ->
+                new HalterItem("halter_fluffy_bagek_lime",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_GREEN = REGISTRY.register("halter_fluffy_green", () ->
-                new HalterItem("halter_fluffy_green",
+        HALTER_FLUFFY_GREEN = REGISTRY.register("halter_fluffy_green", () ->
+                new HalterItem("halter_fluffy_bagek_green",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_CYAN = REGISTRY.register("halter_fluffy_cyan", () ->
-                new HalterItem("halter_fluffy_cyan",
+        HALTER_FLUFFY_CYAN = REGISTRY.register("halter_fluffy_cyan", () ->
+                new HalterItem("halter_fluffy_bagek_cyan",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_LIGHT_BLUE = REGISTRY.register("halter_fluffy_light_blue", () ->
-                new HalterItem("halter_fluffy_light_blue",
+        HALTER_FLUFFY_LIGHT_BLUE = REGISTRY.register("halter_fluffy_light_blue", () ->
+                new HalterItem("halter_fluffy_bagek_light_blue",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_BLUE = REGISTRY.register("halter_fluffy_blue", () ->
-                new HalterItem("halter_fluffy_blue",
+        HALTER_FLUFFY_BLUE = REGISTRY.register("halter_fluffy_blue", () ->
+                new HalterItem("halter_fluffy_bagek_blue",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_PURPLE = REGISTRY.register("halter_fluffy_purple", () ->
-                new HalterItem("halter_fluffy_purple",
+        HALTER_FLUFFY_PURPLE = REGISTRY.register("halter_fluffy_purple", () ->
+                new HalterItem("halter_fluffy_bagek_purple",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_MAGENTA = REGISTRY.register("halter_fluffy_magenta", () ->
-                new HalterItem("halter_fluffy_magenta",
+        HALTER_FLUFFY_MAGENTA = REGISTRY.register("halter_fluffy_magenta", () ->
+                new HalterItem("halter_fluffy_bagek_magenta",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_PINK = REGISTRY.register("halter_fluffy_pink", () ->
-                new HalterItem("halter_fluffy_pink",
+        HALTER_FLUFFY_PINK = REGISTRY.register("halter_fluffy_pink", () ->
+                new HalterItem("halter_fluffy_bagek_pink",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_WHITE = REGISTRY.register("halter_fluffy_white", () ->
-                new HalterItem("halter_fluffy_white",
+        HALTER_FLUFFY_WHITE = REGISTRY.register("halter_fluffy_white", () ->
+                new HalterItem("halter_fluffy_bagek_white",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_LIGHT_GRAY = REGISTRY.register("halter_fluffy_light_gray", () ->
-                new HalterItem("halter_fluffy_light_gray",
+        HALTER_FLUFFY_LIGHT_GRAY = REGISTRY.register("halter_fluffy_light_gray", () ->
+                new HalterItem("halter_fluffy_bagek_light_gray",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_GRAY = REGISTRY.register("halter_fluffy_gray", () ->
-                new HalterItem("halter_fluffy_gray",
+        HALTER_FLUFFY_GRAY = REGISTRY.register("halter_fluffy_gray", () ->
+                new HalterItem("halter_fluffy_bagek_gray",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_BLACK = REGISTRY.register("halter_fluffy_black", () ->
+        HALTER_FLUFFY_BLACK = REGISTRY.register("halter_fluffy_black", () ->
                 new HalterItem("halter_fluffy_black",
                         (new Item.Properties().stacksTo(64))
                 ));
-        HALTER_FLUFFY_BAGEK_BROWN = REGISTRY.register("halter_fluffy_brown", () ->
+        HALTER_FLUFFY_BROWN = REGISTRY.register("halter_fluffy_brown", () ->
                 new HalterItem("halter_fluffy_brown",
                         (new Item.Properties().stacksTo(64))
                 ));
@@ -263,7 +263,7 @@ public class BageksTack {
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BLACK = REGISTRY.register("english_breast_collar_fivepoint_bagek_black", () ->
-                new EnglishBreastCollar("english_breast_collar_fivepoint_bagek_black",
+                new EnglishBreastCollar("english_breast_collar_bagek_fivepoint_black",
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BREAST_COLLAR_XC_BLACK = REGISTRY.register("english_breast_collar_xc_black", () ->
@@ -283,7 +283,7 @@ public class BageksTack {
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BREAST_COLLAR_FIVEPOINT_BAGEK_BROWN = REGISTRY.register("english_breast_collar_fivepoint_bagek_brown", () ->
-                new EnglishBreastCollar("english_breast_collar_fivepoint_bagek_brown",
+                new EnglishBreastCollar("english_breast_collar_bagek_fivepoint_brown",
                         (new Item.Properties().stacksTo(64))
                 ));
         ENGLISH_BREAST_COLLAR_XC_BROWN = REGISTRY.register("english_breast_collar_xc_brown", () ->
@@ -298,6 +298,7 @@ public class BageksTack {
                 new WesternBreastCollarItem("bagek_lungegear",
                         (new Item.Properties().stacksTo(64))
                 ));
+
 
         ENGLISH_BRIDLE_BAGEK_BLACK = REGISTRY.register("english_bridle_bagek_black", () ->
                 new EnglishBridleItem("english_bridle_bagek_black",
@@ -379,7 +380,8 @@ public class BageksTack {
                 new WesternBridleItem("western_bridle_bagek_brown",
                         (new Item.Properties().stacksTo(64))
                 ));
-        
+
+
         ENGLISH_GIRTH_STRAP_ANATOMIC_BLACK = REGISTRY.register("english_girth_strap_anatomic_black", () ->
                 new EnglishGirthStrap("english_girth_strap_anatomic_black",
                         (new Item.Properties().stacksTo(64))
